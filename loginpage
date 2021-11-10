@@ -63,5 +63,8 @@ else
 <body>
 hello world
 
+<%String name= request.getParameter("name"); %>
+<%=name %>
+
 </body>
 </html>
